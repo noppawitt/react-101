@@ -31,8 +31,10 @@ const NewsContent = () => {
           {news.content[i18n.language]}
         </div>
         <div className="news-content__info">
-          {t('category')}: {t(news.category)} {t('updatedDate')}:{' '}
-          {formatDate(news.updatedAt)}
+          <p>
+            {t('category')}: {t(news.category)} {t('updatedDate')}:{' '}
+            {formatDate(news.updatedAt)}
+          </p>
         </div>
       </div>
     </div>

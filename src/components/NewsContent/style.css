@@ -15,7 +15,8 @@
 }
 
 .news-content__info {
-    float: right;
+    display: flex;
+    justify-content: flex-end;
     padding: 0.5rem;
     font-size: 0.9rem;
     font-style: italic;

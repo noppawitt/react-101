@@ -1,10 +1,10 @@
 .app {
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--background);
 }
 
 .app__container {
-    min-height: calc(100% - 154px);
+    min-height: calc(100vh - 154px);
     padding: 20px 2rem;
     margin: 0 auto;
     max-width: 1350px;

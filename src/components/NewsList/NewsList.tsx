@@ -137,7 +137,6 @@ const NewsList = () => {
             </div>
           ))}
       </div>
-      <div />
       <div className="news-list__pagination">
         <div className="pagination__pages">
           {paginationPages().map((page, i) => {

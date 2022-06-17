@@ -1,7 +1,7 @@
 import { News } from '@/models/news';
 import { set } from '@/utils/object';
 import { translatedOptions } from '@/utils/option';
-import React, { ChangeEvent, FormEvent, useState } from 'react';
+import { ChangeEvent, FormEvent, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 import Button from '../Button/Button';
@@ -107,7 +107,7 @@ const NewsForm = ({ onSubmit, defaultValue = initialNews }: NewsFormProps) => {
 
       <div className="news-form__control">
         <Button type="submit">{t('save')}</Button>
-        <Button onClick={() => navigate(-1)} varient="outlined">
+        <Button type="button" varient="outlined" onClick={() => navigate(-1)}>
           {t('cancel')}
         </Button>
       </div>
