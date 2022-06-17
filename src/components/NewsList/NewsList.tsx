@@ -152,7 +152,7 @@ const NewsList = () => {
           })}
         </div>
         <div className="pagination__summary">
-          {t('rowsPerPage')}
+          <span>{t('rowsPerPage')}</span>
           <select value={pageSize} onChange={handlePageSizeChange}>
             {pageSizes.map((size) => (
               <option key={size} value={size}>
@@ -160,9 +160,12 @@ const NewsList = () => {
               </option>
             ))}
           </select>
-          {pageOffset + 1}-
-          {Math.min(pageOffset + pageSize, filteredNewsList.length)} of{' '}
-          {filteredNewsList.length}
+          <span>
+            {pageOffset + 1}-
+            {`${Math.min(pageOffset + pageSize, filteredNewsList.length)} ${t(
+              'of',
+            )} ${filteredNewsList.length}`}
+          </span>
         </div>
       </div>
       <Popover
