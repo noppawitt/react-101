@@ -1,0 +1,24 @@
+.landing-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.news-header {
+    display: flex;
+    align-items: center;
+}
+
+.news-header__link {
+    margin-left: auto;
+    color: var(--primary)
+}
+
+.recent-news {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+}
+
+.recent-news__item {
+    height: 330px;
+}

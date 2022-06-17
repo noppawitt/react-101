@@ -1,0 +1,13 @@
+.breadcrumbs {
+    margin: 20px 0;
+}
+
+.breadcrumbs>* {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--on-background);
+}
+
+.breadcrumbs__active {
+    font-weight: bold;
+}

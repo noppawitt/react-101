@@ -1,0 +1,10 @@
+.lang-switcher__lang {
+    cursor: pointer;
+    color: var(--on-background);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.lang-switcher__lang--active {
+    font-weight: bold;
+}

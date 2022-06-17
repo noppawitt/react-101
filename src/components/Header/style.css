@@ -1,0 +1,19 @@
+.header {
+    height: 77px;
+    width: 100%;
+    padding: 0.7rem 2rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--background);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header__logo {
+    cursor: pointer;
+}
+
+.header__lang-switcher {
+    margin-left: auto;
+}

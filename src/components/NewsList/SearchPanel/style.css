@@ -1,0 +1,16 @@
+.search-panel__container {
+    display: grid;
+    gap: 4%;
+    grid-template-columns: 25% 25% auto;
+}
+
+.search-panel__search-button {
+    margin-left: auto;
+    margin-top: 29px;
+}
+
+@media (max-width: 768px) {
+    .search-panel__container {
+        display: block;
+    }
+}

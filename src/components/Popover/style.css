@@ -1,0 +1,6 @@
+.popover {
+    position: absolute;
+    color: var(--on-background);
+    background-color: var(--background);
+    z-index: 1010;
+}

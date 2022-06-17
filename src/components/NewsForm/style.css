@@ -1,0 +1,31 @@
+.news-form__form {
+    display: grid;
+    grid-template-columns: auto minmax(300px, 30%);
+    gap: 2%;
+}
+
+.news-form__control {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    justify-content: center;
+    gap: 4%;
+    margin: 4rem 0;
+}
+
+.news-form__cover-image {
+    height: 362px;
+}
+
+@media (max-width: 768px) {
+    .news-form__form {
+        display: block;
+    }
+
+    .news-form__control {
+        display: block;
+    }
+
+    .news-form__control>* {
+        margin: 1rem 0;
+    }
+}
