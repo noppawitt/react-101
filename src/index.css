@@ -57,7 +57,7 @@ select {
   margin-top: 8px;
   height: 42px;
   outline: none;
-  color: var(--on-background) !important;
+  color: var(--on-background);
 }
 
 option {
@@ -75,6 +75,7 @@ textarea {
   margin-top: 8px;
   outline: none;
   resize: none;
+  color: var(--on-background);
 }
 
 input:focus,
