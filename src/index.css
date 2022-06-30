@@ -26,6 +26,16 @@ code {
   --error: #B00020;
 }
 
+[data-theme="dark"] {
+  --primary: #4CAF50;
+  --surface: #1d1d1d;
+  --background: #121212;
+  --on-primary: #FFFFFF;
+  --on-background: #FFFFFF;
+  --error: #CF6679;
+  color: #FFFFFF;
+}
+
 label {
   font-size: 14px;
   color: var(--primary);
@@ -48,6 +58,10 @@ select {
   height: 42px;
   outline: none;
   color: var(--on-background) !important;
+}
+
+option {
+  background: var(--surface);
 }
 
 textarea {

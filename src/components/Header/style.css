@@ -14,6 +14,7 @@
     cursor: pointer;
 }
 
-.header__lang-switcher {
+.header__theme-switcher {
     margin-left: auto;
+    margin-right: 20px;
 }

@@ -28,13 +28,3 @@
     color: var(--on-primary);
     background-color: var(--primary);
 }
-
-/* .button--text {
-    color: var(--primary);
-    background-color: var(--background);
-    border: none;
-}
-
-.button--text:hover {
-    background-color: var(--surface);
-} */

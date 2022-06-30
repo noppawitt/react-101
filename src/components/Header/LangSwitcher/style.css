@@ -6,5 +6,7 @@
 }
 
 .lang-switcher__lang--active {
-    font-weight: bold;
+    -webkit-text-fill-color: var(--on-background);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--on-background);
 }

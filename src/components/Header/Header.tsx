@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import LangSwitcher from './LangSwitcher/LangSwitcher';
 import logo from '@/assets/images/logo.png';
+import DarkModeToggle from './DarkModeToggle';
 import './style.css';
 
 const Header = () => {
@@ -14,6 +15,11 @@ const Header = () => {
         alt="logo"
         onClick={() => navigate('/')}
       />
+
+      <div className="header__theme-switcher">
+        <DarkModeToggle />
+      </div>
+
       <div className="header__lang-switcher">
         <LangSwitcher />
       </div>
